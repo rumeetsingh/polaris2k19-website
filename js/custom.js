@@ -1,6 +1,6 @@
 $(".banner_part").mousemove(function(e){
-  var moveX=  (e.pageX * -1/10)-500;
-  var moveY=   (e.pageY * -1/15)-200;
+  var moveX=  (e.pageX * -1/10);
+  var moveY=   (e.pageY * -1/15);
   
   $(this).css("background-position",moveX+"px "+moveY+"px");
 });
